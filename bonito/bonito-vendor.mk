@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierSetup \
     grilservice \
-    LLKAgent \
     RilConfigService
 
 # Prebuilt system_ext jars
@@ -107,7 +106,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/google/bonito/proprietary/system_ext/etc/permissions/com.android.omadm.radioconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.omadm.radioconfig.xml \
-    vendor/google/bonito/proprietary/system_ext/etc/permissions/com.verizon.llkagent.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.verizon.llkagent.xml \
     vendor/google/bonito/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/google/bonito/proprietary/system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/google/bonito/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -810,6 +808,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
     vendor/google/bonito/proprietary/vendor/firmware/crbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/crbtfw21.tlv \
     vendor/google/bonito/proprietary/vendor/firmware/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crnv21.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/crus_sp_config_b4_rx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_config_b4_rx.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/crus_sp_config_b4_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_config_b4_tx.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/crus_sp_config_s4_rx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_config_s4_rx.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/crus_sp_config_s4_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_sp_config_s4_tx.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/cs40l20.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.wmfw \
+    vendor/google/bonito/proprietary/vendor/firmware/drv2624.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/drv2624.bin \
     vendor/google/bonito/proprietary/vendor/firmware/easel/Image:$(TARGET_COPY_OUT_VENDOR)/firmware/easel/Image \
     vendor/google/bonito/proprietary/vendor/firmware/easel/fip.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/easel/fip.bin \
     vendor/google/bonito/proprietary/vendor/firmware/easel/hdrplus_shot_pcgs/empty.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/easel/hdrplus_shot_pcgs/empty.txt \
@@ -836,6 +841,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/firmware/modemuw.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/modemuw.jsn \
     vendor/google/bonito/proprietary/vendor/firmware/nanoapp_config.textproto:$(TARGET_COPY_OUT_VENDOR)/firmware/nanoapp_config.textproto \
     vendor/google/bonito/proprietary/vendor/firmware/pn557.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pn557.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/rt5514_dsp_fw1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rt5514_dsp_fw1.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/rt5514_dsp_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rt5514_dsp_fw2.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/rt5514_dsp_fw3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rt5514_dsp_fw3.bin \
+    vendor/google/bonito/proprietary/vendor/firmware/rt5514_dsp_fw4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rt5514_dsp_fw4.bin \
     vendor/google/bonito/proprietary/vendor/firmware/synaptics_0.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics_0.img \
     vendor/google/bonito/proprietary/vendor/firmware/synaptics_2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics_2.img \
     vendor/google/bonito/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
